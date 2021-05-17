@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.makeText(this, "Bienvenido a la MAIN", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Bienvenido al MAIN", Toast.LENGTH_LONG).show();
         nombreIntroducido= (EditText)findViewById(R.id.et_nombre);
     }
 
