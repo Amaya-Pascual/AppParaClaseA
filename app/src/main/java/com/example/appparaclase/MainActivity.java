@@ -2,7 +2,9 @@ package com.example.appparaclase;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -25,5 +27,18 @@ public class MainActivity extends AppCompatActivity {
         Intent main_saludo = new Intent(this, Saludo.class);
         main_saludo.putExtra("EnvioNombre", nombreIntroducido.getText().toString());
         startActivity(main_saludo);
+    }
+
+    public void Llamar(View view)
+    {
+        Uri number = Uri.parse("tel:5551234");
+        Intent callIntent = new Intent(Intent.ACTION_DIAL, number);
+        try {
+            startActivity(callIntent);
+        } catch (ActivityNotFoundException e)
+        {
+            Toast.makeText(this, "Ha habido un error", Toast.LENGTH_LONG).show();
+        }
+
     }
 }

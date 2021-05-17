@@ -8,12 +8,27 @@
 
     <TextView
         android:id="@+id/tv_nomRecibido"
-        android:layout_width="225dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="164dp"
-        android:text="TextView"
+        android:layout_width="266dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/txtView"
+        android:textAllCaps="true"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="379dp"
+        android:layout_height="517dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nomRecibido"
+        app:layout_constraintVertical_bias="0.041" >
+
+    </ListView>
 </androidx.constraintlayout.widget.ConstraintLayout>

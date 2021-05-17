@@ -3,4 +3,15 @@
     <string name="nombre">Nombre</string>
     <string name="saludo">Hola, bienvenido</string>
     <string name="btnEntrada">Entrar</string>
+    <string name="txtView">Selecciona un nombre</string>
+    <!-- para menu contextual de un text view-->
+    <string name="action_nuevo">Nuevo</string>
+    <string name="action_actualizar">Actualizar</string>
+    <string name="action_eliminar">Eliminar</string>
+    <!-- para menu contextual de un list view-->
+    <string name="action_nuevo_item">Nuevo item</string>
+    <string name="action_actualizar_item">Actualizar item</string>
+    <string name="action_eliminar_item">Eliminar item</string>
+    <!-- para llamar por telefono-->
+    <string name="btnllama">Acceder al telefono</string>
 </resources>
