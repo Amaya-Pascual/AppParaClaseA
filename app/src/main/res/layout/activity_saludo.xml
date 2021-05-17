@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/tv_nomRecibido"
-        android:layout_width="74dp"
-        android:layout_height="29dp"
+        android:layout_width="225dp"
+        android:layout_height="41dp"
         android:layout_marginTop="164dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
